@@ -3023,7 +3023,8 @@ textarea.form-control {
   padding: 4em 0;
   position: relative;
   width: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
 }
 
 @media (max-width: 575.98px) {
